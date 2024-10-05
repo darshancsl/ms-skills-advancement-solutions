@@ -1,0 +1,18 @@
+#about .company-desc {
+  margin: 60px 15px;
+}
+
+#about .company-desc .content-wrap {
+  padding: 30px;
+}
+
+
+#about .company-desc .content-wrap .title {
+  font-size: 40px;
+  text-align: center;
+}
+
+#about .company-desc .content-wrap .desc {
+  font-size: 16px;
+  line-height: 2;
+}

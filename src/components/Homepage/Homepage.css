@@ -1,0 +1,64 @@
+#home .review {
+  min-height: 120px;
+  background-color: #f3f3f3;
+}
+
+#home .reviews-list {
+  min-height: 120px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#home .reviews-inner,
+span {
+  margin-left: 5px;
+}
+
+#home .reviews-inner,
+h3 {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+#home .reviews-unit {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#home .courses-content {
+  padding: 120px 15px;
+  gap: 100px
+}
+
+#home .img-wrap {
+  width: 400px;
+  height: 400px;
+  background-color: #000;
+}
+
+#home img {
+  width: 100%;
+  height: 100%;
+  transform: rotate(-5deg);
+  object-fit: cover;
+}
+
+#home .about-content {
+  background-color: #f3f3f3;
+}
+
+#home .about-content .container {
+  padding: 120px 15px;
+  gap: 100px;
+}
+
+#home .about-content img {
+  transform: rotate(5deg);
+}
+
+#contact-us {
+  padding: 120px 15px;
+  margin: 0 auto;
+  text-align: center;
+}

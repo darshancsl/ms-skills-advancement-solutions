@@ -1,0 +1,11 @@
+#footer {
+  background-color: #000;
+  min-height: 75px;
+  text-align: center;
+  padding: 15px;
+  color: #ccc;
+}
+
+#footer .copyright {
+  font-size: 14px;
+}

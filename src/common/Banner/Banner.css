@@ -1,0 +1,49 @@
+.banner-inner {
+  position: relative;
+  min-height: 400px;
+  height: calc(70vh - 150px);
+}
+
+.banner-inner-bg {
+  position: absolute;
+  background: url("../../assets//images/bg-banner.jpg") center center no-repeat;
+  background-size: cover;
+  filter: blur(1px);
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.bg-overlay {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: #000;
+  opacity: 0.9;
+}
+
+.content-wrap {
+  position: relative;
+  max-width: 800px;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.content-wrap .title {
+  font-size: 40px;
+}
+
+.banner-inner .content-wrap .title,
+.banner-inner .content-wrap .desc {
+  color: #ddd;
+}
+
+.content-wrap .primary-btn:hover {
+  background-color: transparent;
+  color: #fff;
+  border-color: #fff;
+}
